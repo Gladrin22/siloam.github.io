@@ -1,0 +1,89 @@
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 1000% 1000%;
+    animation: gradient 15s ease infinite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/*  credits By:- codepen.io
+ Manuel Pinto
+https://manuelpinto.in */ 
+
+/*Button*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 50vw;
+    margin: 0 auto;
+    min-height: 65vh;
+  }
+  .btn {
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 50px;
+    text-align: center;
+    font-size: 1cm;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 100% auto;
+    color: rgb(7, 6, 65);
+   /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    border-radius: 150px;
+   }
+  
+ 
+  
+  .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
+  
+  .btn-1 {
+    background-image: linear-gradient(to right, #b9e442 0%, #c5d11c 51%, #e5ff00 100%);
+    }
+  
+  
+  
+  /*-MrPirrera-------codepen.io*/
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding-top: cm;
+    font-size: 3cm;
+}
+
+
+h3{
+  color: rgb(255, 255, 255);
+  text-align: left;
+  padding-top: cm;
+  font-size: 1.7cm;
+}
+
+
+p{
+  padding-top: 1cm;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 1cm;
+    
+}
+
